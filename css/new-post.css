@@ -1,0 +1,72 @@
+.new-post-container {
+  max-width: 700px;
+  /* Daha dar bir konteyner */
+  margin: 50px auto;
+  /* Üstte daha fazla boşluk */
+  padding: 30px;
+  /* Daha fazla iç boşluk */
+  font-family: 'Georgia', serif;
+  /* Daha şık bir yazı tipi */
+  background-color: #fff;
+  /* Beyaz arka plan */
+  border-radius: 10px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+}
+
+.title {
+  font-size: 2.5rem;
+  /* Daha büyük başlık */
+  margin-bottom: 30px;
+  /* Daha fazla boşluk */
+  color: #333;
+}
+
+.post-form {
+  display: flex;
+  flex-direction: column;
+}
+
+.input-title {
+  padding: 15px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  font-size: 1.2rem;
+  margin-bottom: 15px;
+  transition: border-color 0.3s;
+}
+
+.input-title:focus {
+  border-color: #0070f3;
+  outline: none;
+}
+
+.input-content {
+  padding: 15px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  font-size: 1.2rem;
+  min-height: 200px;
+  margin-bottom: 15px;
+  transition: border-color 0.3s;
+}
+
+.input-content:focus {
+  border-color: #0070f3;
+  outline: none;
+}
+
+.submit-button {
+  padding: 15px 30px;
+  /* Düğme boyutunu artır */
+  background-color: #0070f3;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-size: 1.2rem;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.submit-button:hover {
+  background-color: #005bb5;
+}
